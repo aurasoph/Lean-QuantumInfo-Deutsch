@@ -22,13 +22,14 @@ import QuantumInfo.Finite.Unitary
 import QuantumInfo.Finite.Capacity_doc
 
 
-import QuantumInfo.QuantumCircuits.QuantumGates.basic
-import QuantumInfo.QuantumCircuits.QuantumGates.arithmetic
-import QuantumInfo.QuantumCircuits.QuantumGates.qubit
-import QuantumInfo.QuantumCircuits.QuantumStates.measurement
-import QuantumInfo.QuantumCircuits.LinearAlgebra.matrix
-import QuantumInfo.QuantumCircuits.LinearAlgebra.inner_product
-import QuantumInfo.QuantumCircuits.LinearAlgebra.kronecker
+
+import QuantumCircuits.QuantumGates.basic
+import QuantumCircuits.QuantumGates.arithmetic
+import QuantumCircuits.QuantumGates.qubit
+import QuantumCircuits.QuantumStates.measurement
+import QuantumCircuits.LinearAlgebra.matrix
+import QuantumCircuits.LinearAlgebra.inner_product
+import QuantumCircuits.LinearAlgebra.kronecker
 
 /-! # Quantum Information in Lean
 
