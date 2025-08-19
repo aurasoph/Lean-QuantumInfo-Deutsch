@@ -21,6 +21,15 @@ import QuantumInfo.Finite.Unitary
 --Documentation without code
 import QuantumInfo.Finite.Capacity_doc
 
+
+import QuantumInfo.QuantumCircuits.QuantumGates.basic
+import QuantumInfo.QuantumCircuits.QuantumGates.arithmetic
+import QuantumInfo.QuantumCircuits.QuantumGates.qubit
+import QuantumInfo.QuantumCircuits.QuantumStates.measurement
+import QuantumInfo.QuantumCircuits.LinearAlgebra.matrix
+import QuantumInfo.QuantumCircuits.LinearAlgebra.inner_product
+import QuantumInfo.QuantumCircuits.LinearAlgebra.kronecker
+
 /-! # Quantum Information in Lean
 
 What follows is a top-level index to the major top-level definitions in this repository, in roughly their dependency order:
