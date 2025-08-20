@@ -23,7 +23,11 @@ end Qubit
 
 
 -- Deincrement gate one bit (the same action as inc gate)
-
+@[simp] def inc : Bit → Bit
+  | 0 => 1
+  | 1 => 0
+@[simp] lemma dec_0 : inc (0:Bit) = 1:= rfl
+@[simp] lemma dec_1 : inc (1:Bit) = 0 := rfl
 
 -- Two qubit Decrementer
 @[simp] def dec2 : Bit × Bit → Bit × Bit
